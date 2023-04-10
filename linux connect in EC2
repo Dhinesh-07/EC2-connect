@@ -1,0 +1,13 @@
+mkdir anyname
+cd anyname
+yum update
+sudo su
+yum update
+yum install git
+githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+. ~/.nvm/nvm.sh
+nvm install 16.0.0
+git clone repository
+cd repository
+npm install
+npm install nodemon
